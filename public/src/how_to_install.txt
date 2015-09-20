@@ -1,0 +1,7 @@
+to install, run [[ npm install --save-dev ]] in 'src' folder
+
+'gulp watch' to watch
+
+'gulp scripts' to compile js
+'gulp compass' to compile sass
+'gulp' to compile and minify the project

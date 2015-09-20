@@ -1,0 +1,65 @@
+// Clearfix
+// -------------------------
+%clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+
+
+// Reset para margin, padding e border
+// -------------------------
+%reset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+// Lista sem bullets
+// -------------------------
+%unstyled {
+	padding: 0;
+	li { list-style: none }
+}
+
+
+
+// Text Hide
+// -------------------------
+%text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-decoration: none;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+
+
+// Transition Padrão
+// -------------------------
+%transition {
+	@include transition;
+}
+
+
+
+// float: left width: 100%
+// -------------------------
+%floatw {
+	@include floatw;
+}
+
+
+
+// User select None
+// -------------------------
+%user-select {
+	@include user-select( none );
+}

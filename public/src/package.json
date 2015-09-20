@@ -1,0 +1,24 @@
+{
+  "name": "project_name",
+  "version": "0.0.1",
+  "description": "project description",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-compass": "latest",
+    "gulp-cssmin": "latest",
+    "gulp-concat": "latest",
+    "gulp-jshint": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "del": "latest",
+    "path": "latest"
+  },
+  "author": "Willian Costa Souza",
+  "private": true,
+  "devDependencies": {
+    "gulp-cssmin": "~0.1.6"
+  }
+}
