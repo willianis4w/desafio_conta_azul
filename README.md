@@ -1,8 +1,4 @@
-[![http://williancs.com/desafio_conta_azul]](http://williancs.com/desafio_conta_azul/)
-
 # Desafio Conta Azul - Front-end
-
-Desafio:
 
 Tarefas:
 
