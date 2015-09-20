@@ -101,6 +101,10 @@ var site,
 
 		messages.init();
 
+		$(window).on('load', function () {
+			$('body').fadeIn();
+		});
+
 	});
 
 })( window, document, jQuery );

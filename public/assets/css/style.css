@@ -11702,6 +11702,7 @@ body {
   color: #000;
   font-family: "Open Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  display: none;
 }
 
 /* ==========================================================================
